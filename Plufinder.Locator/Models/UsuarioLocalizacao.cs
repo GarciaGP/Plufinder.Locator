@@ -13,5 +13,8 @@ namespace Plufinder.Locator.Models
 
         [BsonElement("id_localizacao")]
         public int IdLocalizacao { get; set; }
+
+        [BsonElement("id_cargo")]
+        public int IdCargo { get; set; }
     }
 }
